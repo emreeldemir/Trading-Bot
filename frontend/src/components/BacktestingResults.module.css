@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+.resultsContainer {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(180, 179, 184);
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.resultsTitle {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #3a5171;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resultsTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resultsTable th, .resultsTable td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 15px;
+}
+
+.resultsTable th {
+    background-color: #3c537f;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.resultsTable td {
+    background-color: #ffffff;
+    color: #444;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+
+.resultsTable tr:nth-child(even) td {
+    background-color: #f7fafc;
+}
+
+.resultsTable tr:hover td {
+    background-color: #d1e1f1;
+}
+
+.resultsTable td:last-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+h6, h5 {
+    margin: 5px 0;
+    color: #555;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+h5 img {
+    margin-left: 430px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chartImage {
+    max-width: 95%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.chartImage:hover {
+    transform: scale(1.05);
+}
+
+p {
+    color: #6c757d;
+    font-size: 15px;
+    background-color:rgb(254, 254, 254)
+}
+
+p:hover {
+    background-color: #d1e1f1;
+}
+
