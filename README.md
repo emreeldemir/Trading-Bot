@@ -10,7 +10,7 @@ This project is an Automated Trading Bot application designed to test and simula
 
 <table>
 <tr>
-<td>For more detailed information, charts and images, examine the file named "ProjectReport.pdf"</td>
+<td>For more detailed information, charts and images, examine the file named "ProjectReport.pdf". When you open the PDF file, do not forget to click the "More pages" button at the bottom of the page.</td>
 </tr>
 </table>
 
