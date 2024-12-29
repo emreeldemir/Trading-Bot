@@ -3,8 +3,8 @@ import pandas as pd
 import datetime
 
 # Binance API anahtarları
-API_KEY = "eMUIBdwSn8j3ik559HsJsA7uz8D9wdOJMj19V2O39w6LamHcLFZKRMnHGDHVOiG1"
-API_SECRET = "2PmumiAxxidxxasH9EwuPfeAnRfbJocApK9q2sPTeZqibe4BcsdrpKKHUjf16ODU"
+API_KEY = "YOUR_API_KEY"
+API_SECRET = "YOUR_SECRET_KEY"
 
 client = Client(API_KEY, API_SECRET)
 
